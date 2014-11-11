@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-'''
+```
 require 'rubygems'
 require 'squinty'
 
@@ -31,7 +31,7 @@ light.failure!
 light.building!
 light.warning!
 light.off!
-'''
+```
 
 ## Contributing
 
