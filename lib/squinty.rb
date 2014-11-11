@@ -4,6 +4,10 @@ require "squinty/light"
 
 module Squinty
 
+  def self.new
+    Squinty.new
+  end
+
   class Squinty
 
     def initialize
