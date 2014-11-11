@@ -10,23 +10,23 @@ module Squinty
     end
 
     def success!
-      serialport.write "xgg"
+      serialport.write "xbg"
     end
 
     def failure!
-      serialport.write "xgg"
+      serialport.write "xbr"
     end
 
     def building!
-      serialport.write "xgg"
+      serialport.write "xb"
     end
 
     def warning!
-      serialport.write "xgg"
+      serialport.write "xbb"
     end
 
     def off!
-      serialport.write "xgg"
+      serialport.write "xi"
     end
 
     private
