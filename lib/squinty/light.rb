@@ -1,5 +1,3 @@
-require 'blinkee/colors'
-
 module Squinty
   class Light
 
