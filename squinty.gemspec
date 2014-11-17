@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Squinty::VERSION
   spec.authors       = ["Daniel Angel-Bradford"]
   spec.email         = ["locusdelicti@gmail.com"]
-  spec.summary       = %q{Raspberry Pi - Arduino interface for interacting with a Neopixel strip.}
+  spec.summary       = %q{Build light common interface for Raspberry Pi and Arduino.}
   spec.description   = %q{Raspberry Pi - Arduino interface for interacting with a Neopixel strip.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/hooroo/squinty"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubyserial", "~> 0.1.2"
+  spec.add_dependency "rubyserial", ">= 0.1.2"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
