@@ -1,7 +1,10 @@
 module Squinty
   class Light
 
-    def initialize
+    attr_reader :serialport
+
+    def initialize serialport
+      @serialport = serialport
     end
 
     def success!
