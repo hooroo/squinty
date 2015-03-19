@@ -1,4 +1,3 @@
-require "pry-byebug"
 require "rubyserial"
 
 require "squinty/version"
