@@ -12,12 +12,20 @@ module Squinty
       serialport.write "xbr"
     end
 
-    def building!
-      serialport.write "xb"
+    def running!
+      serialport.write "xf"
     end
 
     def warning!
       serialport.write "xbb"
+    end
+
+    def happy!
+      serialport.write "xc"
+    end
+
+    def rainbow!
+      serialport.write "xd"
     end
 
     def off!
