@@ -40,9 +40,9 @@ light.off!
 ### Additional methods:
 
 ```ruby
-running!
-happy!
-rainbow!
+light.running!
+light.happy!
+light.rainbow!
 ```
 
 ## Contributing
