@@ -1,6 +1,6 @@
 # Squinty
 
-A ruby gem to control a [Neopixel strip](http://www.adafruit.com/category/168) with build light colours and effects, via a [Moteino](http://lowpowerlab.com/moteino/). It uses the same interface as the [Blinky](https://github.com/perryn/blinky) gem, the idea being that the adapter can take one or the other and you can duck-type yourself into bliss.
+A ruby gem to control a [Neopixel strip](http://www.adafruit.com/category/168) with build light colours and effects, via a [Moteino](http://lowpowerlab.com/moteino/). It extends the [Blinky](https://github.com/perryn/blinky) gem interface, adding a few more methods to the mix. The idea is that if your project already supports Blinky, Squinty will work just fine.
 
 ## Installation
 
@@ -25,12 +25,24 @@ require 'rubygems'
 require 'squinty'
 
 light = Squinty.new.light
+```
 
+### Blinky methods:
+
+```ruby
 light.success!
 light.failure!
 light.building!
 light.warning!
 light.off!
+```
+
+### Additional methods:
+
+```ruby
+running!
+happy!
+rainbow!
 ```
 
 ## Contributing
