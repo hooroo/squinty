@@ -16,7 +16,7 @@ module Squinty
     end
 
     def running!
-      serialport.write "xf"
+      serialport.write "s01e#7F4000t50"
     end
 
     def warning!
